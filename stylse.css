@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Micro+5&display=swap');
+root{
+    --green:#06d213;
+    --btn-outline-border:2px solid #06d213;
+    --bg-left-slide:#fff;
+    --bg-right:#1f1f1f;
+    --elite-family:Micro;
+    --family-html-font:Lalezar;
+}
+
+html{
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-family: lalezar;
+    color: #1f1f1f;
+    overflow: hidden;
+}
+
+h2{
+    font-size: 100px;
+    text-shadow: 
+        1px 1px 4px white,
+        -1px 1px 4px white,
+        -1px -1px 4px white,
+        -1px 1px 4px white;
+    letter-spacing: 4px;
+    justify-self: center;
+    margin-right: 22%;
+    margin-top: 10%;
+    font-family: 'micro 5';
+    word-spacing: 5px;
+    animation: showup 1s ease .3s both;
+}
+
+header ol li a{
+    text-decoration: none;
+    color: black;
+    transition: all .5s ease;
+    animation: showup 1s ease .5s both;
+}
+
+header ol li a:hover{
+    color: #06d213;
+}
+
+header ol{
+    position: absolute;
+    left: 40%;
+    top: 26%;
+    animation: showup 1s ease .4s both;
+}
+
+.background{
+    width: 50%;
+    height: 150vh;
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    z-index: -1;
+    background-color: #000000;
+    rotate: -18deg;
+}
+
+.the-top-playears{
+    width: 800px;
+    height: 300px;
+    margin-left: 22%;
+    /* border:1px solid #06d213; */
+    display: flex;
+    padding: 25px;
+    gap: 10px;
+    animation: showup 1s ease .5s both;
+}
+
+.the-top-playears .first{
+    flex-basis: 250px;
+    background-color: #1f1f1f;
+    border-radius: 5px;
+    position: relative;
+    animation: showup 1s ease 1.2s both;
+}
+
+.the-top-playears .secound{
+    flex-basis: 190px;
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 5px;
+    animation: showup 1s ease 1.6s both;
+}
+
+.the-top-playears .secound .number{
+    flex-grow: 1;
+    box-shadow: 0px 0px 5px .1px white;
+    flex-basis: 180px;
+    background-color: #2b2b2b;
+    background-color: #1f1f1f;
+    border-radius: 5px;
+    position: relative;
+    animation: showup 1s ease 2s both;
+}
+
+.the-top-playears .list{
+    flex-basis: 350px;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+    background-color: #1f1f1f;
+    border-radius: 5px;
+    animation: showup 1s ease 2.3s both;
+}
+
+.li{
+    animation: showup 1s ease 2.7s both;
+    box-shadow: 0px 0px 5px .1px white;
+    width: 340px;
+}
+
+.first h3{
+    font-size: 20px;
+    position:absolute;
+    top: 10%;
+    left: 25%;
+    z-index: 555;
+    color: white;
+}
+
+.first .KD{
+    position: absolute;
+    bottom: 30%;
+    right: 25%;
+    z-index: 999;
+}
+
+.number img{
+    position: absolute;
+    bottom: -5%;
+    right: -30%;
+    width: 200px;
+}
+
+.number h4{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    color: white;
+    font-size: 15px;
+}
+
+.number .KD{
+    position: absolute;
+    left: 10%;
+    bottom: 20%;
+    font-family: 'micro 5';
+    color: white;
+}
+
+.list{
+    position:relative;
+}
+
+.list .li{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    color: white;
+}
+
+.list .li .icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+
+@keyframes showup {
+    from{
+        opacity: 0;
+        translate: 0px 10px;
+    }
+    to{
+        opacity: 1;
+        translate: 0px 0px;
+    }
+}
